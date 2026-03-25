@@ -1,0 +1,61 @@
+question_id,subject,topic,concept,text,option_a,option_b,option_c,option_d,correct_option,difficulty_label,correct_count,wrong_count,avg_time
+1,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(1 + 1)?,2,4,3,1,option_a,easy,80,20,20
+2,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(4 + 2)?,7,8,5,6,option_d,easy,80,20,20
+3,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(7 + 2)?,10,11,9,8,option_c,easy,80,20,20
+4,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(7 + 6)?,14,13,12,15,option_b,easy,80,20,20
+5,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(3 + 6)?,11,9,10,8,option_b,easy,80,20,20
+6,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(7 + 6)?,13,15,12,14,option_a,easy,80,20,20
+7,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(8 + 2)?,12,9,11,10,option_d,easy,80,20,20
+8,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(9 + 6)?,14,17,15,16,option_c,easy,80,20,20
+9,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(8 + 6)?,14,15,13,16,option_a,easy,80,20,20
+10,Intro Python,Variables & Arithmetic,Integer addition,What is the output of: print(2 + 6)?,8,9,10,7,option_a,easy,80,20,20
+11,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(3):\n    total += i,2,5,3,4,option_c,medium,60,40,35
+12,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(6):\n    total += i,14,17,15,16,option_c,medium,60,40,35
+13,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(7):\n    total += i,22,20,21,23,option_c,medium,60,40,35
+14,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(3):\n    total += i,4,3,5,2,option_b,medium,60,40,35
+15,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(4):\n    total += i,6,8,7,5,option_a,medium,60,40,35
+16,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(7):\n    total += i,23,22,21,20,option_c,medium,60,40,35
+17,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(4):\n    total += i,8,7,5,6,option_d,medium,60,40,35
+18,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(4):\n    total += i,5,6,8,7,option_b,medium,60,40,35
+19,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(3):\n    total += i,4,3,2,5,option_b,medium,60,40,35
+20,Intro Python,Loops,for loop over range,What is the final value of 'total' after executing this code?\ntotal = 0\nfor i in range(3):\n    total += i,5,2,3,4,option_c,medium,60,40,35
+21,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),23,24,25,12,option_b,hard,30,70,50
+22,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 5?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),121,120,60,119,option_b,hard,30,70,50
+23,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 3?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),3,5,7,6,option_d,hard,30,70,50
+24,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),23,25,24,12,option_c,hard,30,70,50
+25,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 5?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),60,121,119,120,option_d,hard,30,70,50
+26,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),12,25,24,23,option_c,hard,30,70,50
+27,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),12,24,23,25,option_b,hard,30,70,50
+28,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 6?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),721,720,719,360,option_b,hard,30,70,50
+29,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 3?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),3,6,5,7,option_b,hard,30,70,50
+30,Intro Python,Functions & Recursion,Factorial recursion,What does this function return for n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),25,12,24,23,option_c,hard,30,70,50
+31,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+32,Data Structures & Algorithms,Basic Data Structures,Stacks,Which data structure is best suited to implement recursion?,Array,Queue,Stack,Heap,option_c,easy,85,15,18
+33,Data Structures & Algorithms,Basic Data Structures,Hash map,Which data structure stores key-value pairs?,Array,Linked list,Dictionary / Map,Queue,option_c,easy,85,15,18
+34,Data Structures & Algorithms,Basic Data Structures,Stacks,Which data structure is best suited to implement recursion?,Array,Queue,Stack,Heap,option_c,easy,85,15,18
+35,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+36,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+37,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+38,Data Structures & Algorithms,Basic Data Structures,Hash map,Which data structure stores key-value pairs?,Array,Linked list,Dictionary / Map,Queue,option_c,easy,85,15,18
+39,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+40,Data Structures & Algorithms,Basic Data Structures,Queues,Which data structure works on First-In-First-Out (FIFO) principle?,Stack,Queue,Tree,Graph,option_b,easy,85,15,18
+41,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+42,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+43,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+44,Data Structures & Algorithms,Complexity Analysis,Amortized analysis,What is the time complexity of inserting an element at the end of a dynamic array (amortized)?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
+45,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+46,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+47,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+48,Data Structures & Algorithms,Complexity Analysis,Time complexity,What is the time complexity of linear search in an unsorted array of size n?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+49,Data Structures & Algorithms,Complexity Analysis,Amortized analysis,What is the time complexity of inserting an element at the end of a dynamic array (amortized)?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
+50,Data Structures & Algorithms,Complexity Analysis,Amortized analysis,What is the time complexity of inserting an element at the end of a dynamic array (amortized)?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
+51,Data Structures & Algorithms,Algorithms,Graph shortest path,Dijkstra's algorithm cannot handle which type of edge weights correctly?,Positive weights,Zero weights,Negative weights,All of the above,option_c,hard,35,65,45
+52,Data Structures & Algorithms,Algorithms,Quick sort,Which sorting algorithm has the worst-case time complexity O(n^2) but average-case O(n log n) when using randomized pivot?,Merge sort,Heap sort,Quick sort,Insertion sort,option_c,hard,35,65,45
+53,Data Structures & Algorithms,Algorithms,Quick sort,Which sorting algorithm has the worst-case time complexity O(n^2) but average-case O(n log n) when using randomized pivot?,Merge sort,Heap sort,Quick sort,Insertion sort,option_c,hard,35,65,45
+54,Data Structures & Algorithms,Algorithms,Graph shortest path,Dijkstra's algorithm cannot handle which type of edge weights correctly?,Positive weights,Zero weights,Negative weights,All of the above,option_c,hard,35,65,45
+55,Data Structures & Algorithms,Algorithms,Tree traversal,Which traversal of a binary search tree (BST) prints keys in sorted order?,Preorder,Inorder,Postorder,Level-order,option_b,hard,35,65,45
+56,Data Structures & Algorithms,Algorithms,Graph shortest path,Dijkstra's algorithm cannot handle which type of edge weights correctly?,Positive weights,Zero weights,Negative weights,All of the above,option_c,hard,35,65,45
+57,Data Structures & Algorithms,Algorithms,Graph shortest path,Dijkstra's algorithm cannot handle which type of edge weights correctly?,Positive weights,Zero weights,Negative weights,All of the above,option_c,hard,35,65,45
+58,Data Structures & Algorithms,Algorithms,Quick sort,Which sorting algorithm has the worst-case time complexity O(n^2) but average-case O(n log n) when using randomized pivot?,Merge sort,Heap sort,Quick sort,Insertion sort,option_c,hard,35,65,45
+59,Data Structures & Algorithms,Algorithms,Quick sort,Which sorting algorithm has the worst-case time complexity O(n^2) but average-case O(n log n) when using randomized pivot?,Merge sort,Heap sort,Quick sort,Insertion sort,option_c,hard,35,65,45
+60,Data Structures & Algorithms,Algorithms,Tree traversal,Which traversal of a binary search tree (BST) prints keys in sorted order?,Preorder,Inorder,Postorder,Level-order,option_b,hard,35,65,45
