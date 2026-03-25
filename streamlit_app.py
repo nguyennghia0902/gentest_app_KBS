@@ -25,4 +25,46 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+html, body, [data-testid="stAppViewContainer"] {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input, textarea {
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+pre, code {
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+</style>
+
+<script>
+document.addEventListener("contextmenu", function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener("copy", function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener("cut", function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener("keydown", function(e) {
+    if ((e.ctrlKey || e.metaKey) && ['c', 'x', 'a'].includes(e.key.toLowerCase())) {
+        e.preventDefault();
+    }
+});
+</script>
+""", unsafe_allow_html=True)
+
 pg.run()
