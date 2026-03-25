@@ -27,6 +27,15 @@ def sample_by_difficulty(
         unique.append(q)
     return unique
 
+def deduplicate_by_question_id(questions):
+    seen = set()
+    unique = []
+    for q in questions:
+        if q.question_id not in seen:
+            seen.add(q.question_id)
+            unique.append(q)
+    return unique
+
 
 def generate_exam(
     csv_path: str,
@@ -38,6 +47,7 @@ def generate_exam(
 ):
     questions = load_questions(csv_path)
     subject_qs = filter_questions(questions, subject=subject)
+    
     if not subject_qs:
         raise ValueError(f"No questions for subject {subject}")
 
@@ -47,12 +57,24 @@ def generate_exam(
     targets = {'easy': easy_n, 'medium': med_n, 'hard': hard_n}
 
     picked = sample_by_difficulty(subject_qs, targets)
+
     if len(picked) < total_questions:
         remaining = [q for q in subject_qs if q not in picked]
         extra = random.sample(remaining, min(len(remaining), total_questions - len(picked)))
         picked.extend(extra)
 
-    return picked
+    # Khử trùng theo question_id
+    picked = deduplicate_by_question_id(picked)
+
+    # Nếu sau khi khử trùng mà vẫn thiếu câu thì bổ sung tiếp
+    if len(picked) < total_questions:
+        used_ids = {q.question_id for q in picked}
+        extra_pool = [q for q in subject_qs if q.question_id not in used_ids]
+        extra_needed = total_questions - len(picked)
+        picked.extend(random.sample(extra_pool, min(len(extra_pool), extra_needed)))
+
+    return picked[:total_questions]
+
 
 
 def print_exam(questions: List[Question]):
