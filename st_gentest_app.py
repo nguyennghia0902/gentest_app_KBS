@@ -1,13 +1,13 @@
 import time
 import streamlit as st
-from st_function import *
+from st_utilities import *
 
-st.set_page_config(page_title='Hệ thống sinh đề tự động', layout='wide')
+st.set_page_config(page_title='Hệ thống sinh đề tự động', page_icon="📝", layout='wide')
 
 def main():
     st.set_page_config(page_title='Hệ thống sinh đề tự động', layout='wide')
 
-    st.title('Hệ thống sinh đề và làm bài trắc nghiệm')
+    st.title('HỆ THỐNG SINH ĐỀ VÀ LÀM BÀI TRẮC NGHIỆM')
 
     all_questions = load_all_questions()
     subjects = get_subjects(all_questions)
@@ -61,7 +61,7 @@ def main():
         st.warning('Hãy cấu hình và bấm "Tạo đề và bắt đầu làm bài" ở thanh bên.')
         return
 
-    st.subheader('ĐỀ THI')
+    st.subheader('Trắc nghiệm: Hãy chọn phương án đúng nhất trong các phương án A, B, C và D.')
 
     for idx, q in enumerate(exam, start=1):
         with st.container(border=True):

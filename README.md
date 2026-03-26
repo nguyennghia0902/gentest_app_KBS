@@ -2,7 +2,7 @@
 
 Ứng dụng web giúp **tự động sinh đề thi trắc nghiệm**, hỗ trợ sinh viên làm bài trực tuyến và **chấm điểm tức thì** dựa trên ngân hàng câu hỏi hai môn học: _Nhập môn Python_ và _Cấu trúc dữ liệu & Giải thuật_.
 
-[![Open app in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bnn-genmctest-kbs.streamlit.app/)
+### Web demo:     [![](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bnn-genmctest-kbs.streamlit.app/)
 
 ---
 
@@ -22,6 +22,9 @@
 ```
 .
 ├── app_streamlit.py      # Ứng dụng Streamlit chính
+├── st_home.py            # Trang chủ giới thiệu 
+├── st_gentest.py         # Trang sinh đề trắc nghiệm và làm bài
+├── st_utilities.py       # Các hàm tiện ích cho ứng dụng
 ├── exam_generator.py     # Sinh đề theo môn & phân bố độ khó
 ├── question_bank.py      # Load & lọc ngân hàng câu hỏi
 ├── questions_vi.csv      # Ngân hàng câu hỏi tiếng Việt
@@ -31,7 +34,7 @@
 
 ---
 
-## 🚀 Chạy ứng dụng trên máy của bạn
+## 🚀 Chạy ứng dụng trên máy
 
 **1. Cài đặt thư viện**
 
@@ -64,8 +67,7 @@ Trình duyệt sẽ tự mở tại `http://localhost:8501`.
 ---
 
 ## 🔮 Hướng phát triển
-
-- Tích hợp **LLM thật** (GPT / Gemini) để sinh câu hỏi mới theo ontology.
+- Tích hợp **LLM thật** (GPT/Gemini) để sinh câu hỏi mới theo ontology.
 - Thêm **dashboard đánh giá năng lực** sinh viên theo chủ đề.
 - Ghi log lịch sử làm bài, phân tích tiến bộ theo thời gian.
 - Hỗ trợ mở rộng sang nhiều môn học khác.

@@ -1,1 +1,6 @@
 streamlit
+typing
+random
+time
+dataclasses
+csv

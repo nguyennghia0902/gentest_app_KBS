@@ -4,58 +4,90 @@ question_id,subject,topic,concept,text,option_a,option_b,option_c,option_d,corre
 3,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(7 + 2)?,10,11,9,8,option_c,easy,80,20,20
 4,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(7 + 6)?,14,13,12,15,option_b,easy,80,20,20
 5,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(3 + 6)?,11,9,10,8,option_b,easy,80,20,20
-6,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(7 + 6)?,13,15,12,14,option_a,easy,80,20,20
-7,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(8 + 2)?,12,9,11,10,option_d,easy,80,20,20
-8,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(9 + 6)?,14,17,15,16,option_c,easy,80,20,20
-9,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(8 + 6)?,14,15,13,16,option_a,easy,80,20,20
-10,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(2 + 6)?,8,9,10,7,option_a,easy,80,20,20
-11,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(3):\n    total += i,2,5,3,4,option_c,medium,60,40,35
-12,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(6):\n    total += i,14,17,15,16,option_c,medium,60,40,35
-13,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(7):\n    total += i,22,20,21,23,option_c,medium,60,40,35
-14,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(3):\n    total += i,4,3,5,2,option_b,medium,60,40,35
-15,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(4):\n    total += i,6,8,7,5,option_a,medium,60,40,35
-16,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(7):\n    total += i,23,22,21,20,option_c,medium,60,40,35
-17,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(4):\n    total += i,8,7,5,6,option_d,medium,60,40,35
-18,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(4):\n    total += i,5,6,8,7,option_b,medium,60,40,35
-19,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(3):\n    total += i,4,3,2,5,option_b,medium,60,40,35
-20,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(3):\n    total += i,5,2,3,4,option_c,medium,60,40,35
-21,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),23,24,25,12,option_b,hard,30,70,50
-22,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 5?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),121,120,60,119,option_b,hard,30,70,50
-23,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 3?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),3,5,7,6,option_d,hard,30,70,50
-24,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),23,25,24,12,option_c,hard,30,70,50
-25,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 5?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),60,121,119,120,option_d,hard,30,70,50
-26,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),12,25,24,23,option_c,hard,30,70,50
-27,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),12,24,23,25,option_b,hard,30,70,50
-28,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 6?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),721,720,719,360,option_b,hard,30,70,50
-29,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 3?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),3,6,5,7,option_b,hard,30,70,50
-30,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),25,12,24,23,option_c,hard,30,70,50
-31,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-32,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Ngăn xếp (Stack),Cấu trúc dữ liệu nào phù hợp nhất để hiện thực đệ quy?,Mảng (Array),Queue (hàng đợi),Stack (ngăn xếp),Heap,option_c,easy,85,15,18
-33,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Bảng băm (Hash map),Cấu trúc dữ liệu nào lưu trữ các cặp khóa - giá trị?,Mảng (Array),Danh sách liên kết,Từ điển / Bản đồ (Dictionary / Map),Queue (hàng đợi),option_c,easy,85,15,18
-34,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Ngăn xếp (Stack),Cấu trúc dữ liệu nào phù hợp nhất để hiện thực đệ quy?,Mảng (Array),Queue (hàng đợi),Stack (ngăn xếp),Heap,option_c,easy,85,15,18
-35,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-36,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-37,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-38,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Bảng băm (Hash map),Cấu trúc dữ liệu nào lưu trữ các cặp khóa - giá trị?,Mảng (Array),Danh sách liên kết,Từ điển / Bản đồ (Dictionary / Map),Queue (hàng đợi),option_c,easy,85,15,18
-39,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-40,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
-41,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-42,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-43,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-44,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian (amortized) của việc chèn một phần tử vào cuối mảng động là bao nhiêu?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
-45,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-46,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-47,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-48,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
-49,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian (amortized) của việc chèn một phần tử vào cuối mảng động là bao nhiêu?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
-50,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian (amortized) của việc chèn một phần tử vào cuối mảng động là bao nhiêu?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
-51,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Dijkstra không xử lý đúng loại trọng số cạnh nào?,Trọng số dương,Trọng số bằng 0,Trọng số âm,Tất cả các đáp án trên,option_c,hard,35,65,45
-52,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Thuật toán sắp xếp nào có độ phức tạp trường hợp xấu nhất O(n^2) nhưng trung bình O(n log n) khi dùng pivot ngẫu nhiên?,Sắp xếp trộn (Merge sort),Sắp xếp vun đống (Heap sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn (Insertion sort),option_c,hard,35,65,45
-53,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Thuật toán sắp xếp nào có độ phức tạp trường hợp xấu nhất O(n^2) nhưng trung bình O(n log n) khi dùng pivot ngẫu nhiên?,Sắp xếp trộn (Merge sort),Sắp xếp vun đống (Heap sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn (Insertion sort),option_c,hard,35,65,45
-54,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Dijkstra không xử lý đúng loại trọng số cạnh nào?,Trọng số dương,Trọng số bằng 0,Trọng số âm,Tất cả các đáp án trên,option_c,hard,35,65,45
-55,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Duyệt cây,Thứ tự duyệt nào của cây tìm kiếm nhị phân (BST) sẽ in các khóa theo thứ tự tăng dần?,Duyệt trước (Preorder),Duyệt giữa (Inorder),Duyệt sau (Postorder),Duyệt theo mức (Level-order),option_b,hard,35,65,45
-56,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Dijkstra không xử lý đúng loại trọng số cạnh nào?,Trọng số dương,Trọng số bằng 0,Trọng số âm,Tất cả các đáp án trên,option_c,hard,35,65,45
-57,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Dijkstra không xử lý đúng loại trọng số cạnh nào?,Trọng số dương,Trọng số bằng 0,Trọng số âm,Tất cả các đáp án trên,option_c,hard,35,65,45
-58,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Thuật toán sắp xếp nào có độ phức tạp trường hợp xấu nhất O(n^2) nhưng trung bình O(n log n) khi dùng pivot ngẫu nhiên?,Sắp xếp trộn (Merge sort),Sắp xếp vun đống (Heap sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn (Insertion sort),option_c,hard,35,65,45
-59,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Thuật toán sắp xếp nào có độ phức tạp trường hợp xấu nhất O(n^2) nhưng trung bình O(n log n) khi dùng pivot ngẫu nhiên?,Sắp xếp trộn (Merge sort),Sắp xếp vun đống (Heap sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn (Insertion sort),option_c,hard,35,65,45
-60,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Duyệt cây,Thứ tự duyệt nào của cây tìm kiếm nhị phân (BST) sẽ in các khóa theo thứ tự tăng dần?,Duyệt trước (Preorder),Duyệt giữa (Inorder),Duyệt sau (Postorder),Duyệt theo mức (Level-order),option_b,hard,35,65,45
+6,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(8 + 2)?,12,9,11,10,option_d,easy,80,20,20
+7,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(9 + 6)?,14,17,15,16,option_c,easy,80,20,20
+8,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(8 + 6)?,14,15,13,16,option_a,easy,80,20,20
+9,Nhập môn Python,Biến và số học,Cộng số nguyên,Kết quả của lệnh sau là gì: print(2 + 6)?,8,9,10,7,option_a,easy,80,20,20
+10,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(3):\n    total += i,2,5,3,4,option_c,medium,60,40,35
+11,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(6):\n    total += i,14,17,15,16,option_c,medium,60,40,35
+12,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(7):\n    total += i,22,20,21,23,option_c,medium,60,40,35
+13,Nhập môn Python,Vòng lặp,Vòng lặp for với range,Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?\ntotal = 0\nfor i in range(4):\n    total += i,6,8,7,5,option_a,medium,60,40,35
+14,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 4?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),23,24,25,12,option_b,hard,30,70,50
+15,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 5?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),121,120,60,119,option_b,hard,30,70,50
+16,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 3?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),3,5,7,6,option_d,hard,30,70,50
+17,Nhập môn Python,Hàm và đệ quy,Đệ quy tính giai thừa,Hàm sau sẽ trả về giá trị nào khi n = 6?\ndef f(n):\n    if n == 0:\n        return 1\n    return n * f(n-1),721,720,719,360,option_b,hard,30,70,50
+18,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi (Queue),Cấu trúc dữ liệu nào hoạt động theo nguyên lý vào trước ra trước (FIFO)?,Stack (ngăn xếp),Queue (hàng đợi),Tree (cây),Graph (đồ thị),option_b,easy,85,15,18
+19,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Ngăn xếp (Stack),Cấu trúc dữ liệu nào phù hợp nhất để hiện thực đệ quy?,Mảng (Array),Queue (hàng đợi),Stack (ngăn xếp),Heap,option_c,easy,85,15,18
+20,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Bảng băm (Hash map),Cấu trúc dữ liệu nào lưu trữ các cặp khóa - giá trị?,Mảng (Array),Danh sách liên kết,Từ điển / Bản đồ (Dictionary / Map),Queue (hàng đợi),option_c,easy,85,15,18
+21,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm tuyến tính trên mảng chưa sắp xếp kích thước n là gì?,O(1),O(log n),O(n),O(n log n),option_c,medium,65,35,30
+22,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian (amortized) của việc chèn một phần tử vào cuối mảng động là bao nhiêu?,O(1),O(n),O(log n),O(n log n),option_a,medium,65,35,30
+23,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Dijkstra không xử lý đúng loại trọng số cạnh nào?,Trọng số dương,Trọng số bằng 0,Trọng số âm,Tất cả các đáp án trên,option_c,hard,35,65,45
+24,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Thuật toán sắp xếp nào có độ phức tạp trường hợp xấu nhất O(n^2) nhưng trung bình O(n log n) khi dùng pivot ngẫu nhiên?,Sắp xếp trộn (Merge sort),Sắp xếp vun đống (Heap sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn (Insertion sort),option_c,hard,35,65,45
+25,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Duyệt cây,Thứ tự duyệt nào của cây tìm kiếm nhị phân (BST) sẽ in các khóa theo thứ tự tăng dần?,Duyệt trước (Preorder),Duyệt giữa (Inorder),Duyệt sau (Postorder),Duyệt theo mức (Level-order),option_b,hard,35,65,45
+26,Nhập môn Python,Biến và số học,Phép trừ số nguyên,Kết quả của lệnh sau là gì: print(10 - 4)?,5,6,7,8,option_b,easy,80,20,20
+27,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Kết quả của lệnh sau là gì?
+x = [1,2,3]
+print(len(x))",2,4,1,3,option_d,medium,60,40,35
+28,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Giá trị của 'x' sau lệnh này là gì?
+x = 10
+x += 5",5,15,10,14,option_b,medium,60,40,35
+29,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Vòng lặp sau in ra bao nhiêu lần?
+for i in range(5):
+    print(i)",4,3,5,6,option_c,medium,60,40,35
+30,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Kết quả của biểu thức sau là gì?
+print(2 ** 3)",5,6,9,8,option_d,medium,60,40,35
+31,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Giá trị cuối cùng của 'total' sau khi chạy đoạn mã sau là bao nhiêu?
+total = 0
+for i in range(5):
+    total += i",10,9,11,8,option_a,medium,60,40,35
+32,Nhập môn Python,Vòng lặp,Biểu thức và vòng lặp,"Kết quả của lệnh sau là gì?
+print(15 % 4)",4,3,2,1,option_b,medium,60,40,35
+33,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Hàm sau sẽ trả về giá trị nào khi n = 7?
+def f(n):
+    if n == 0:
+        return 1
+    return n * f(n-1)",40320,5040,720,120,option_b,hard,30,70,50
+34,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Hàm sau sẽ trả về giá trị nào khi n = 2?
+def f(n):
+    if n == 0:
+        return 1
+    return n * f(n-1)",2,1,3,4,option_a,hard,30,70,50
+35,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Hàm lambda sau trả về gì khi x = 3?
+f = lambda x: x**2 + 2*x + 1",16,7,10,9,option_a,hard,30,70,50
+36,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Kết quả của đoạn mã sau là gì?
+def double(lst):
+    return [x * 2 for x in lst]
+print(double([1,2,3]))","[1,2,3]","[2,3,4]","[2, 4, 6]","[3,4,5]",option_c,hard,30,70,50
+37,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Đoạn mã sau in ra giá trị nào?
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+print(fib(6))",5,8,7,13,option_b,hard,30,70,50
+38,Nhập môn Python,Hàm và đệ quy,Hàm và biểu thức nâng cao,"Hàm sau sẽ trả về giá trị nào khi n = 0?
+def f(n):
+    if n == 0:
+        return 1
+    return n * f(n-1)",2,0,-1,1,option_d,hard,30,70,50
+39,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Ngăn xếp (Stack),Ngăn xếp (Stack) hoạt động theo nguyên lý nào?,Ngẫu nhiên,Ưu tiên,LIFO (vào sau ra trước),FIFO (vào trước ra trước),option_c,easy,85,15,18
+40,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Danh sách liên kết,"Trong danh sách liên kết đơn, mỗi nút lưu trữ những gì?",Dữ liệu và con trỏ tới nút tiếp theo,Chỉ dữ liệu,Dữ liệu và hai con trỏ,Chỉ con trỏ,option_a,easy,85,15,18
+41,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Mảng (Array),Phép truy cập phần tử mảng theo chỉ số có độ phức tạp thời gian là bao nhiêu?,O(n²),O(1),O(log n),O(n),option_b,easy,85,15,18
+42,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Cây nhị phân,Một cây nhị phân có mỗi nút tối đa bao nhiêu nút con?,1,4,2,3,option_c,easy,85,15,18
+43,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Đồ thị (Graph),"Trong đồ thị vô hướng, cạnh nối hai đỉnh có hướng không?",Không,Chỉ có trọng số,Tùy loại đồ thị,Có,option_a,easy,85,15,18
+44,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Hàng đợi ưu tiên,Cấu trúc dữ liệu nào luôn trả về phần tử có độ ưu tiên cao nhất trước?,Hàng đợi ưu tiên (Priority Queue),Stack,Queue,Mảng,option_a,easy,85,15,18
+45,Cấu trúc dữ liệu & Giải thuật,Cấu trúc dữ liệu cơ bản,Bảng băm (Hash map),Hàm băm (hash function) dùng để làm gì?,Tìm kiếm nhị phân,Sắp xếp phần tử,Duyệt đồ thị,Ánh xạ khóa thành chỉ số trong bảng băm,option_d,easy,85,15,18
+46,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân trên mảng đã sắp xếp là gì?,O(n),O(n log n),O(1),O(log n),option_d,medium,65,35,30
+47,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian của thuật toán sắp xếp nổi bọt (Bubble sort) trong trường hợp xấu nhất là gì?,O(log n),O(n log n),O(n),O(n²),option_d,medium,65,35,30
+48,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian truy cập phần tử đầu trong Stack là bao nhiêu?,O(n²),O(log n),O(n),O(1),option_d,medium,65,35,30
+49,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp không gian,Độ phức tạp không gian của thuật toán sắp xếp trộn (Merge sort) là gì?,O(n²),O(n),O(1),O(log n),option_b,medium,65,35,30
+50,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Thuật toán nào có độ phức tạp thời gian O(n log n) trong mọi trường hợp?,Sắp xếp trộn (Merge sort),Sắp xếp nhanh (Quick sort),Sắp xếp chèn,Sắp xếp nổi bọt,option_a,medium,65,35,30
+51,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Phân tích amortized,Độ phức tạp thời gian tìm kiếm phần tử trong bảng băm (trường hợp trung bình) là gì?,O(1),O(n²),O(n),O(log n),option_a,medium,65,35,30
+52,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Duyệt toàn bộ cây nhị phân có n nút mất bao lâu?,O(log n),O(n),O(n²),O(1),option_b,medium,65,35,30
+53,Cấu trúc dữ liệu & Giải thuật,Phân tích độ phức tạp,Độ phức tạp thời gian,Độ phức tạp thời gian thêm phần tử vào cuối Stack là bao nhiêu?,O(log n),O(n log n),O(n),O(1),option_d,medium,65,35,30
+54,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Bellman-Ford có thể xử lý đồ thị có trọng số âm không?,Chỉ với đồ thị vô hướng,"Có, nếu không có chu trình âm",Không bao giờ,Chỉ với đồ thị có hướng,option_b,hard,35,65,45
+55,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Sắp xếp nhanh (Quick sort),Khi nào thuật toán Quick sort cho độ phức tạp xấu nhất O(n²)?,Khi phần tử pivot luôn là phần tử lớn nhất hoặc nhỏ nhất,Khi mảng có tất cả phần tử bằng nhau,Khi mảng đã sắp xếp giảm dần,Khi dùng pivot ngẫu nhiên,option_a,hard,35,65,45
+56,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Cây AVL,Cây AVL là gì?,Đồ thị vô hướng,Cây n-phân,Cây nhị phân đầy đủ,"Cây tìm kiếm nhị phân tự cân bằng với hệ số cân bằng tại mỗi nút trong [-1,0,1]",option_d,hard,35,65,45
+57,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Quy hoạch động,Bài toán nào sau đây thường được giải bằng quy hoạch động?,Tìm dãy con chung dài nhất (LCS),Sắp xếp nhanh,Tìm kiếm nhị phân,Duyệt đồ thị theo chiều rộng,option_a,hard,35,65,45
+58,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Duyệt cây,Thuật toán DFS (Depth-First Search) trên đồ thị thường sử dụng cấu trúc dữ liệu nào?,Stack,Queue,Heap,Mảng,option_a,hard,35,65,45
+59,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Đường đi ngắn nhất trên đồ thị,Thuật toán Floyd-Warshall dùng để giải bài toán gì?,Duyệt đồ thị,Sắp xếp đỉnh theo tôpô,Tìm đường đi ngắn nhất giữa tất cả các cặp đỉnh,Tìm cây khung nhỏ nhất,option_c,hard,35,65,45
+60,Cấu trúc dữ liệu & Giải thuật,Giải thuật,Cây tìm kiếm nhị phân,Thao tác nào trên cây tìm kiếm nhị phân (BST) mất O(h) với h là chiều cao cây?,Chỉ tìm kiếm,"Tìm kiếm, chèn và xóa",Chỉ xóa,Chỉ chèn,option_b,hard,35,65,45
