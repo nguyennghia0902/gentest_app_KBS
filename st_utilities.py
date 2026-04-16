@@ -2,6 +2,7 @@ import streamlit as st
 import time
 import question_bank
 import exam_generator
+from llm import *
 
 
 def get_subjects(questions):
@@ -52,10 +53,6 @@ def generate_from_dataset(subject: str, num_questions: int, diff_mode: str):
     )
     return exam
 
-
-def generate_from_llm(subject: str, num_questions: int, diff_mode: str):
-    # Placeholder: hiện tại dùng lại dataset
-    return generate_from_dataset(subject, num_questions, diff_mode)
 
 
 @st.cache_data(show_spinner=False)
