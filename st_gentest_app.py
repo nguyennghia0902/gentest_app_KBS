@@ -1,6 +1,7 @@
 import time
 import streamlit as st
 from st_utilities import *
+import uuid
 
 st.set_page_config(page_title='Hệ thống sinh đề tự động', page_icon="📝", layout='wide')
 
@@ -11,6 +12,11 @@ def main():
 
     all_questions = load_all_questions()
     subjects = get_subjects(all_questions)
+
+    if 'exam_id' not in st.session_state:
+        st.session_state.exam_id = str(uuid.uuid4())
+    if 'exam' not in st.session_state:
+        st.session_state.exam = []
 
     init_session_state()
 
@@ -33,22 +39,24 @@ def main():
                     widget_key = f'q_{i}'
                     if widget_key in st.session_state:
                         del st.session_state[widget_key]
-                try:
-                    if source == 'Dataset':
-                        exam = generate_from_dataset(subject, num_q, diff_mode)
+                with st.spinner('Đang soạn đề thi, vui lòng đợi trong giây lát...'):
+                    try:
+                        if source == 'Dataset':
+                            exam = generate_from_dataset(subject, num_q, diff_mode)
+                        else:
+                            exam = generate_from_llm(subject, num_q, diff_mode)
+                    except Exception as e:
+                        st.error(f'Lỗi sinh đề: {e}')
                     else:
-                        exam = generate_from_llm(subject, num_q, diff_mode)
-                except Exception as e:
-                    st.error(f'Lỗi sinh đề: {e}')
-                else:
-                    if not exam:
-                        st.warning('Không tìm thấy câu hỏi phù hợp trong ngân hàng.')
-                    else:
-                        st.session_state.exam = exam
-                        st.session_state.answers = {}
-                        st.session_state.start_time = time.time()
-                        st.session_state.finished = False
-                        st.rerun()
+                        if not exam:
+                            st.warning('Không tìm thấy câu hỏi phù hợp.')
+                        else:
+                            st.session_state.exam = exam
+                            st.session_state.answers = {}
+                            st.session_state.start_time = time.time()
+                            st.session_state.finished = False
+                            st.session_state.exam_id = str(uuid.uuid4())
+                            st.rerun()
 
         if st.session_state.start_time and not st.session_state.finished:
             elapsed = int(time.time() - st.session_state.start_time)
@@ -120,7 +128,7 @@ def main():
                 'Chọn đáp án',
                 options=display_options,
                 index=None,
-                key=f'q_{idx}',
+                key=f"q_{st.session_state.exam_id}_{idx}",
             )
 
             if choice == None:
@@ -175,6 +183,7 @@ def main():
             st.session_state.answers = {}
             st.session_state.start_time = None
             st.session_state.finished = False
+            st.session_state.exam_id = str(uuid.uuid4())
             st.rerun()
 
 if __name__ == '__main__':
