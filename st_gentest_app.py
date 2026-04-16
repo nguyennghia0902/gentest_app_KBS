@@ -6,7 +6,6 @@ import uuid
 st.set_page_config(page_title='Hệ thống sinh đề tự động', page_icon="📝", layout='wide')
 
 def main():
-    st.set_page_config(page_title='Hệ thống sinh đề tự động', layout='wide')
 
     st.title('HỆ THỐNG SINH ĐỀ VÀ LÀM BÀI TRẮC NGHIỆM')
 
@@ -53,6 +52,7 @@ def main():
                         else:
                             st.session_state.exam = exam
                             st.session_state.answers = {}
+                            st.session_state.option_orders = {}
                             st.session_state.start_time = time.time()
                             st.session_state.finished = False
                             st.session_state.exam_id = str(uuid.uuid4())
@@ -129,6 +129,7 @@ def main():
                 options=display_options,
                 index=None,
                 key=f"q_{st.session_state.exam_id}_{idx}",
+                disabled=st.session_state.finished,
             )
 
             if choice == None:
@@ -181,6 +182,7 @@ def main():
                     del st.session_state[widget_key]
             st.session_state.exam = []
             st.session_state.answers = {}
+            st.session_state.option_orders = {}
             st.session_state.start_time = None
             st.session_state.finished = False
             st.session_state.exam_id = str(uuid.uuid4())
